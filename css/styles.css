@@ -1,0 +1,61 @@
+html,
+body,
+section,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+html {
+    width: 100%;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    font-size: 1em;
+    font-weight: 800;
+    color: #5E7A7D;
+    background: #C5E4E7;
+    scroll-behavior: smooth;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    min-width: 375px;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-size: 1em;
+}
+
+
+/*****************  HERO ***************/
+
+.hero {
+    background: #C5E4E7;
+
+}
+
+.hero img {
+    width: 23.1%;
+    margin-trim: 50px auto 40.9px auto;
+}
+
+.parameters {
+    width: 82.9%;
+}
