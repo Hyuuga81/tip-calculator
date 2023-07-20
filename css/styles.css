@@ -53,9 +53,78 @@ p {
 
 .hero img {
     width: 23.1%;
-    margin-trim: 50px auto 40.9px auto;
+    margin: 50px auto 40.9px auto;
+}
+
+.calc {
+    padding: 32px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .parameters {
     width: 82.9%;
+}
+
+.parameters h1 {
+    margin: 0;
+}
+
+
+
+.parameters input[type="text"] {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    background: #F3F9FA;
+    padding: 18px auto;
+    font-size: 1.5em;
+    font-weight: 800;
+    border: none;
+    border-radius: 10px;
+}
+
+.icon {
+    margin-bottom: 32px;
+}
+
+.icon p {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 205px;
+    left: 40px;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/*********************** TIPS  ************************/
+
+.select .percentages {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.percentages button {
+    width: 46%;
+    color: #fff;
+    background: #00474B;
+    margin-bottom: 16px;
+    font-size: 1.5em;
+    font-weight: 800;
+    padding: 6px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.percentages .custom {
+    color: #547878;
+    background: #F3F9FA;
+    border-color: #F3F9FA;
+
+    font-weight: 800;
 }
