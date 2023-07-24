@@ -24,6 +24,7 @@ body {
     color: #5E7A7D;
     background: #C5E4E7;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 main {
@@ -77,7 +78,7 @@ p {
     text-align: right;
     width: 100%;
     background: #F3F9FA;
-    padding: 18px auto;
+    padding: 6px 0 6px 0;
     font-size: 1.5em;
     font-weight: 800;
     border: none;
@@ -93,9 +94,24 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 205px;
+    top: 210px;
     left: 40px;
     font-size: 1.5em;
+    font-weight: 400;
+    color: #9EBBBD;
+    margin: 0;
+}
+
+.icon i {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 345px;
+    left: 5px;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #9EBBBD;
     margin: 0;
 }
 
@@ -121,10 +137,74 @@ p {
     border: none;
 }
 
+.percentages button:focus {
+    color: #00474B;
+    background: #26C2AE;
+}
+
 .percentages .custom {
     color: #547878;
     background: #F3F9FA;
     border-color: #F3F9FA;
+    font-weight: 800;
+}
 
+/*********************** SOLUTIONS  ************************/
+
+.solutions {
+    width: 87.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background: #00474B;
+    border-radius: 15px;
+    padding: 37px 0 24px 0;
+}
+
+.tip,
+.total {
+    width: 85.9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.tip {
+    margin-bottom: 20px;
+}
+
+.total {
+    margin-bottom: 32px;
+}
+
+.solutions h3 {
+    margin: 0;
+    font-weight: 800;
+    color: #fff;
+}
+
+.solutions p {
+    margin: 0;
+    font-size: .81em;
+    color: #7F9D9F;
+}
+
+.solutions button {
+    width: 85.9%;
+    font-size: 1.25em;
+    font-weight: 800;
+    background: #26C2AE;
+    color: #00474B;
+    border: none;
+    padding: 9px 0;
+    border-radius: 10px;
+}
+
+.tip span,
+.total-value span {
+    color: #26C2AE;
+    font-size: 2em;
     font-weight: 800;
 }
