@@ -208,3 +208,15 @@ p {
     font-size: 2em;
     font-weight: 800;
 }
+
+/*********************** FOOTER  ************************/
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    font-size: 0.8em;
+    background: #fff;
+}
